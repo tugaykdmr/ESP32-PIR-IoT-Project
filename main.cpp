@@ -6,7 +6,7 @@
 //
 //   Board: ESP32 DevKit V1
 //   Sensor: HC-SR501
-//   Pin: PIR OUT -> GPIO23
+//   Pin: PIR OUT -> GPIO13
 // =====================================================
 
 #define BLYNK_TEMPLATE_NAME "TugayAkdemir Pir Sensor"
@@ -25,7 +25,7 @@ char pass[] = "tugayay1";   // Hotspot Password
 // -----------------------------------------
 // PIR Sensor Configuration
 // -----------------------------------------
-const int PIR_PIN = 23;     // GPIO23 = PIR OUT
+const int PIR_PIN = 13;     // GPIO13 = PIR OUT
 int lastPirState = LOW;     // Last sensor state
 unsigned long lastNotify = 0;
 
